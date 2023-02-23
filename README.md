@@ -1,2 +1,3 @@
-# basicCard__FrontExample
-Frontend Mentor Exercises
+# Frontend Mentor Exercises
+
+### By: Angel Arreola
