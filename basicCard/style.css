@@ -3,6 +3,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
+    margin-top: 20rem;
 }
 
 .card {
@@ -10,6 +11,7 @@ body {
     height: 20rem;
     display: flex;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+    border-radius: 1rem;
 }
 
 .card-left {
@@ -35,7 +37,7 @@ body {
 }
 
 .card-left > p {
-    background-color: rgb(114, 0, 0);
+    background-color: rgba(114, 0, 0, 0.397);
     padding: 0.3rem 0.5rem;
     border-radius: 1rem;
 }
