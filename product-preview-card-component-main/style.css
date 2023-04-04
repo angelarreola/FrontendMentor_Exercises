@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    width: 40rem;
+    height: 33rem;
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+    border-radius: 1rem;
+}
+
+.card-left {
+    width: 50%;
+}
+
+.card-left > img {
+    height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.card-right {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.card-right > h2 {
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+}
+
+.card-right-prices {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-right-prices h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.card-right-prices p {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.card-right h1 {
+    font-size: 2.2rem;
+    font-family: 'Fraunces', serif;
+    text-align: start;
+}
+
+.card-right > p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+.card-right-add {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    width: 80%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+
